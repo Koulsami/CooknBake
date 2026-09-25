@@ -1,4 +1,4 @@
-# Cook & Bake Academy practice website
+# Cook & Bake Academy
 
 A responsive demonstration catalogue with 20 sample courses, search and filters,
 validated sign-up forms, a local course assistant, and a workshop invitation
@@ -6,21 +6,19 @@ that appears after 10 seconds. Forms do not send or store personal information.
 
 ## GitHub Pages
 
-In Settings → Pages, choose **Deploy from a branch**, select the branch holding
-these files and the **/docs** folder, then save. The site uses relative asset
-paths so it works under a repository URL. No build step is required.
+In Settings → Pages, choose **Deploy from a branch**, select main and the
+**/docs** folder. No build step is required.
 
 ## Checks
 
 With Node.js installed, run `npm run eval` or `npm run check`.
-These run 30 demo checks, not the official course golden-question evaluation.
+These commands run 30 automated checks for the demonstration website.
 
-## Assessment scope
+## Features and sample content
 
-The catalogue contains synthetic data. The assistant uses JavaScript demo
-documents, not the lab SQLite FTS5 knowledge base. A real hook run and the exact
-Term 4 flyer require the original lab project and source materials. The site
-includes a screenshot guide explaining the available screens and limitations.
+The catalogue uses synthetic data. The assistant uses local JavaScript documents.
+See the website guide for navigation and form behaviour. Sign-ups are demonstrations
+and do not create bookings.
 
 ## Image credit
 
