@@ -1,0 +1,1 @@
+{"name":"cook-and-bake-demo","private":true,"scripts":{"eval":"node scripts/eval.cjs","check":"node scripts/eval.cjs"}}
